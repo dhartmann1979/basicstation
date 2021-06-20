@@ -22,9 +22,9 @@ assets:
         https://raw.githubusercontent.com/balenalabs/basicstation/master/logo.png
 data:
   applicationEnvironmentVariables:
-    - GW_GPS: false
-    - GW_RESET_PIN: 11
-    - GW_RESET_GPIO: 17
+    - GW_GPS: true
+    - GW_RESET_PIN: 25
+    - GW_RESET_GPIO: 25
     - MODEL: SX1301
     - TTN_STACK_VERSION: 3
     - TTN_REGION: eu1
