@@ -1,5 +1,8 @@
 #!/usr/bin/env bash 
 
+# set GPS Baud Rate
+stty -F /dev/ttyS0 9600
+
 # Load common variables
 source ./start_common.sh
 
