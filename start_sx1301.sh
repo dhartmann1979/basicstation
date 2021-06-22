@@ -1,6 +1,8 @@
 #!/usr/bin/env bash 
 
 # set GPS Baud Rate
+gpsctl -f -x UBX-CFG-RST /dev/ttyS0
+gpspipe -r
 stty -F /dev/ttyS0 9600
 
 # Load common variables
