@@ -11,7 +11,7 @@ RUN apt-get update -q > /dev/null && \
 
 # sudo commmand
 RUN apt-get -yq install sudo > /dev/null
-RUN apt-get -yq install gpsd-tools > /dev/null
+RUN apt-get -yq install gpsd-clients > /dev/null
 
 # non-privileged user
 RUN echo "nonprivuser ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers
